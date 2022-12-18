@@ -1,0 +1,253 @@
+body {
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 80px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  background-color: #dd868a;
+  color: white;
+}
+
+p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.video-author {
+  display: inline-block;
+  color: rgb(36, 36, 36);
+  margin-top: 5px;
+  margin-bottom: 4px;
+  font-size: 16px;
+}
+
+.video-views {
+  display: inline-block;
+  margin-top: 3px;
+}
+
+.video-title {
+  font-weight: 600;
+  margin-top: 0;
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+
+.channel-picture {
+  display: inline-block;
+  width: 50px;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+}
+
+.video-info {
+  display: inline-block;
+  width: 200px;
+}
+
+.profile-picture {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.thumbnail-row {
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.video-time {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 2px 4px;
+  border-radius: 2px;
+}
+
+.video-stats {
+  font-size: 12px;
+  color: gray;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 40px;
+}
+
+/*-------------------HEADEEEEEEEER ////////////*/
+
+.header {
+  height: 55px;
+
+  display: flex;
+  display: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  background-color: #c6363c;
+  border-bottom: 1px solid gray;
+  z-index: 100;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.menu-slika {
+  font-size: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.zastava {
+  width: 50px;
+  font-size: 40px;
+}
+
+.balkan-tube {
+  margin-left: 3px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.middle-section {
+  display: flex;
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+  align-items: center;
+}
+
+.search-bar {
+  flex: 1;
+  height: 36px;
+  padding-left: 10px;
+  font-size: 16px;
+  border: 1px solid gray;
+  border-radius: 2px;
+}
+
+.search-bar::placeholder {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  width: 0;
+  color: gray;
+}
+
+.pretrazi-dugme {
+  height: 40px;
+  width: 60px;
+  --ionicon-stroke-width: 30px;
+  margin-left: -1px;
+  margin-right: 10px;
+  background-color: rgb(255, 246, 230);
+}
+
+.mikrofon-dugme {
+  height: 40px;
+  width: 40px;
+  --ionicon-stroke-width: 30px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(255, 246, 230);
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content: space-between;
+  margin-right: 25px;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.kamera-slika {
+  font-size: 30px;
+}
+
+.kockice-slika {
+  font-size: 30px;
+}
+
+.notifikacija-slika {
+  font-size: 30px;
+}
+
+.broj-notifikacija {
+  position: absolute;
+  background-color: #0c4076;
+  color: white;
+  top: 0;
+  right: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 1px 3px;
+  border-radius: 50%;
+}
+
+/*********** SIDEBAR ***********/
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  background-color: #c6363c;
+  width: 72px;
+  padding-top: 10px;
+  z-index: 200;
+  cursor: pointer;
+}
+
+.sidebar-link {
+  background-color: #c6363c;
+  height: 76px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sidebar-link:hover {
+  background-color: #e39b9e;
+}
+
+.sidebar-link ion-icon {
+  font-size: 35px;
+  margin-bottom: 3px;
+}
+
+.sidebar-link div {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}

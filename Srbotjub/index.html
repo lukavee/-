@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>BalkanTube</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <ion-icon class="menu-slika" name="menu-outline"></ion-icon>
+        <img class="zastava" src="/img/srbotjub.png" alt="srpska-zastava" />
+        <p class="balkan-tube">Срботјуб</p>
+      </div>
+
+      <div class="middle-section">
+        <input class="search-bar" placeholder="Pretrazi" type="text" />
+        <button class="pretrazi-dugme">
+          <ion-icon class="pretrazi-slika" name="search-outline"></ion-icon>
+        </button>
+        <button class="mikrofon-dugme">
+          <ion-icon class="mikrofon-slika" name="mic-outline"></ion-icon>
+        </button>
+      </div>
+
+      <div class="right-section">
+        <ion-icon class="kamera-slika" name="videocam-outline"></ion-icon>
+        <ion-icon class="kockice-slika" name="apps-outline"></ion-icon>
+        <ion-icon
+          class="notifikacija-slika"
+          name="notifications-outline"
+        ></ion-icon>
+        <p class="broj-notifikacija">3</p>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <ion-icon name="home-outline"></ion-icon>
+        <div>Кућа</div>
+      </div>
+      <div class="sidebar-link">
+        <ion-icon name="paper-plane-outline"></ion-icon>
+        <div>Истражи</div>
+      </div>
+      <div class="sidebar-link">
+        <ion-icon name="pricetag-outline"></ion-icon>
+        <div>Претплати</div>
+      </div>
+      <div class="sidebar-link">
+        <ion-icon name="play-circle-outline"></ion-icon>
+        <div>Оригинал</div>
+      </div>
+      <div class="sidebar-link">
+        <ion-icon name="musical-notes-outline"></ion-icon>
+        <div>Музика</div>
+      </div>
+      <div class="sidebar-link">
+        <ion-icon name="library-outline"></ion-icon>
+        <div>Библиотека</div>
+      </div>
+    </div>
+
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img src="/img/dariokesegi.jpg" alt="thumb1" />
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="/img/darioprofilna.jpg"
+              alt="profilna"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Комшија хоће да ме туче</p>
+            <p class="video-author">Дарио Кесеги</p>
+            <p class="video-views">10K прегледа &middot; пре сат</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img src="/img/salelazic.jpg" alt="thumb1" />
+          <div class="video-time">17:10</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="/img/salelazicprofilna.jfif"
+              alt="profilna"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Мој натурал лимит је нестваран</p>
+            <p class="video-author">Сале Лазић</p>
+            <p class="video-views">20K прегледа &middot; пре 2 сата</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img src="/img/jovanmemedovicthumb2.jpg" alt="thumb3" />
+          <div class="video-time">04:10</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="/img/memedprofilna2.jpg"
+              alt="profilna"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Природа ми је све у животу</p>
+            <p class="video-author">Јован Мемедовић</p>
+            <p class="video-views">5K прегледа &middot; пре 3 сата</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img src="/img/mudjathumbnail.jpg" alt="thumb4" />
+          <div class="video-time">01:30</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="/img/mudjaprofilna.webp"
+              alt="profilna"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Купио сам нове слушалице</p>
+            <p class="video-author">Муђа</p>
+            <p class="video-views">1М прегледа &middot; пре сат</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img src="/img/tesathumbnail.jpg" alt="thumb5" />
+          <div class="video-time">32:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="/img/tesotesasti.jpg"
+              alt="profilna"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Никса Зизу је мој пријатељ</p>
+            <p class="video-author">Теша Тешановић</p>
+            <p class="video-views">100K прегледа &middot; пре сат</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img src="/img/cysecorthumbnail.jpg" alt="thumb6" />
+          <div class="video-time">12:22</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="/img/programer.jpg"
+              alt="profilna"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Ови компјутери ће променити свет</p>
+            <p class="video-author">Цисекор</p>
+            <p class="video-views">5K прегледа &middot; пре 2 сата</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
